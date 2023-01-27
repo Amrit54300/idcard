@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bx div {
+    box-sizing: border-box;
+}
+
+.card-bx {
+    box-sizing: border-box;
+    width: 1011px;
+    height: 638px;
+    /* scale: 0.7; */
+    border: 1px solid black;
+    padding: 20px 28px;
+}
+
+.card-top {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    display: flex;
+}
+
+.college-logo {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-title {
+    height: 100%;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+}
+
+.card-title p:nth-child(1) {
+    font-size: 50px;
+    color: rgb(219, 0, 0);
+}
+
+.line {
+    border-top: 6px solid rgb(0, 0, 0);
+}
+
+.card-user {
+    width: 100%;
+    height: 380px;
+    padding: 24px 0px;
+    display: flex;
+}
+
+.card-user-photo {
+
+    width: 300px;
+    height: 354px;
+}
+
+.card-user-details {
+    width: 800px;
+    height: 354px;
+    padding-left: 24px;
+    display: flex;
+    font-size: 30px;
+}
+
+
+.detail-left{
+    width: 145px;
+}
+
+.card-bottom {
+    font-size: 38px;
+    color: rgb(219, 0, 0);
+}
