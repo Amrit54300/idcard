@@ -20,7 +20,7 @@ body {
     box-sizing: border-box;
     width: 1011px;
     height: 638px;
-    /* scale: 0.7; */
+    scale: 0.7;
     border: 1px solid black;
     padding: 20px 28px;
 }
