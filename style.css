@@ -80,12 +80,24 @@ body {
     font-size: 30px;
 }
 
-
-.detail-left{
+.detail-left {
     width: 145px;
 }
 
 .card-bottom {
+    display: flex;
+}
+
+.principal-sign {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: absolute;
+    bottom: 25px;
+    right: 60px;
+}
+
+.user-sign {
     font-size: 38px;
     color: rgb(219, 0, 0);
+    width: 300px;
 }
